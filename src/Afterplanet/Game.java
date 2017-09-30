@@ -125,7 +125,7 @@ public class Game extends JPanel implements ActionListener {
     }
 
     @Override
-    public void paintComponent(Graphics g) {
+    public void paintComponent(Graphics g) { 
         //creates Graphics2D object
         Graphics2D g2d = (Graphics2D) g;
         super.paintComponent(g);
